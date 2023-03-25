@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+   <link rel="stylesheet" href="styleu.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<style>
+body{
+ background-image:url("images/image3.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%}
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 1000px; /* Used in this example to enable scrolling */
+}
+.parallelogram {
+	width: 350px;
+	height: 103px;
+	transform: skew(330deg);
+	background: #555;
+    background-color: blue;
+}
+.menu{
+      height: 14%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      left:0;
+      overflow-x: hidden;}
+    .auto-style1 {
+        height: 38px;
+        width: 417px;
+        margin-left: 0px;
+    }
+.menu {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+    .auto-style1 {
+        width: 450px;
+        height: 38px;
+    }
+.container{
+	margin-top:100px;}
+</style>
+</head>
+<body>
+<div class="menu" >
+
+			<div class="leftmenu">
+			 <div class="parallelogram"><h4>E-COM SUPERFAST</h4></div>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+                 <li><input type=text id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" class="auto-style1"></li>
+					<a style="color:white" href="home.html"><li> HOME&nbsp;&nbsp; </li></a>
+         
+					
+					<a style="color:white" href="about.html"><li>  About us</li></a>
+					<a href="seller.html"><li id="fisrtlist">Seller</li></a>
+					<a href="login.html" style="color:rgb(255, 255, 255); text-decoration: none;"><li>Login</li></a>
+				</ul>
+			</div>
+
+		</div><br>
+<div class="main">
+<div class="container" background="">
+    <div class="myform">
+      <form>
+        <h2>Account details</h2>
+        <h2>STEP - 2</h2>
+        <input type="text" placeholder="FULL NAME AS PER AADHAR">
+        <input type="number" placeholder="AAHDHAR NUMBER (12- DIGITS)" title="Error Message" pattern="[1-9]{1}[0-9]{12}">
+        <input type="tel" placeholder="Mobile Number (10-Digits)" title="Error Message" pattern="[1-9]{1}[0-9]{9}">
+        <input type="email" placeholder="E-MAIL (abc@gmail.com)">
+        <input type="text" placeholder="FULL ADDRESS">
+        <br>
+		<input type="text" placeholder="ACCOUNT TYPE ">
+<label for="LOCATION">BANK NAME:</label>
+        <select name="DIST" id="dist">
+        <option value="None">SELECT</option>
+        <option value="MULUGU" id="MULUGU">MULUGU</option>
+        <option value="WARANGAL RURAL" id="WARANGAL RURAL">WARANGAL RURAL</option>
+        <option value="WARANGAL URBAN" id="WARANGAL URBAN">WARANGAL URBAN</option>
+        <option value="KARIMNAGAR" id="KARIMNAGAR">KARIMNAGAR</option>
+        <option value="NIZAMABAD" id="NIZAMABAD">NIZAMABAD</option>
+        <option value="PEDDAPALLI" id="PEDDAPALLI">PEDDAPALLI</option>
+        <option value="MEDAK" id="MEDAK">MEDAK</option>
+        <option value="SIDDIPET" id="SIDDIPET">SIDDIPET</option>
+        <option value="KHAMMAM" id="KHAMMAM">KHAMMAM</option>
+        <option value="NAGARKURNOOL" id="NAGARKURNOOL">NAGARKURNOOL</option>
+        <option value="VIKARABAD" id="VIKARABAD">VIKARABAD</option>
+        <option value="BHUPALPALLY" id="BHUPALPALLY">BHUPALPALLY</option>
+      </select>
+      <br><br>
+        <label for="LOCATION">BRANCH DIST:</label>
+        <select name="DIST" id="dist">
+        <option value="None">SELECT</option>
+        <option value="MULUGU" id="MULUGU">MULUGU</option>
+        <option value="WARANGAL RURAL" id="WARANGAL RURAL">WARANGAL RURAL</option>
+        <option value="WARANGAL URBAN" id="WARANGAL URBAN">WARANGAL URBAN</option>
+        <option value="KARIMNAGAR" id="KARIMNAGAR">KARIMNAGAR</option>
+        <option value="NIZAMABAD" id="NIZAMABAD">NIZAMABAD</option>
+        <option value="PEDDAPALLI" id="PEDDAPALLI">PEDDAPALLI</option>
+        <option value="MEDAK" id="MEDAK">MEDAK</option>
+        <option value="SIDDIPET" id="SIDDIPET">SIDDIPET</option>
+        <option value="KHAMMAM" id="KHAMMAM">KHAMMAM</option>
+        <option value="NAGARKURNOOL" id="NAGARKURNOOL">NAGARKURNOOL</option>
+        <option value="VIKARABAD" id="VIKARABAD">VIKARABAD</option>
+        <option value="BHUPALPALLY" id="BHUPALPALLY">BHUPALPALLY</option>
+      </select>
+      <br><br>
+        <input type="text" placeholder="OTP">
+        <button type="submit">SUBMIT</button>
+<br>
+<br>
+
+<br><br>
+      </form>
+    </div>
+    
+  </div>
+</div>
+<script>
+function login(){
+ location.href="index.html";}
+</script>
+</body>
+</html>

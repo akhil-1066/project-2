@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+   <link rel="stylesheet" href="styleu1.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<style>
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 500px; /* Used in this example to enable scrolling */
+}
+.parallelogram {
+	width: 350px;
+	height: 98px;
+	transform: skew(330deg);
+	background: #555;
+    background-color: blue;
+}
+.menu{
+      height: 14%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      left:0;
+      overflow-x: hidden;}
+    .auto-style1 {
+        height: 38px;
+        width: 417px;
+        margin-left: 0px;
+    }
+.menu {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+    .auto-style1 {
+        width: 450px;
+        height: 38px;
+    }
+</style>
+</head>
+<body>
+<div class="menu" >
+
+			<div class="leftmenu">
+			 <div class="parallelogram"><h4>E-COM SUPERFAST</h4></div>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+                 <li><input type=text id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" class="auto-style1"></li>
+					<a style="color:white" href="home.html"><li> HOME&nbsp;&nbsp; </li></a>
+         
+					
+					<a style="color:white" href="babout.html"><li>  About us</li></a>
+					<a href="login.html" style="color:rgb(255, 255, 255); text-decoration: none;"><li id="fisrtlist">Login</li></a>
+				</ul>
+			</div>
+
+		</div><br>
+<div class="main">
+<div class="container">
+    <div class="myform">
+      <form action="#" method="post">  
+<p><img id="output" width="200" /></p><br>
+        <input type="text" id="price" placeholder="ITEM NAME">
+        <br>
+        <input type="number" id="price" placeholder="PRICE">
+        <input type="number" id="discount" placeholder="DISCOUNT">
+        <br>
+        <label for="CATEGORIES">CATEGORIES:</label>
+        <select name="DIST" id="selection">
+        <option value="None">SELECT</option>
+        <option value="ELECTRONICS">ELECTRONIC GADJETS</option>
+        <option value="HOME APPLIANCES">HOME APPLIANCES</option>
+        <option value="TOYS">TOYS</option>
+        <option value="BOOKS">BOOKS</option>
+        <option value="DRESSES">DRESSES</option>
+        <option value="FURNITURE">FURNITURE</option>
+        <option value="BEAUTY">BEAUTY</option>
+        <option value="MEDICINES">MEDICINES</option>
+        <option value="SPORTS">SPORTS</option>
+      </select><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"><label for="file" style="cursor: pointer; margin-left:20px;">Upload Image</label><br><br><br>
+        <button type="submit" onclick="submit()" style="width:200px; margin-left:25px">SUBMIT</button>
+        <button type="submit" onclick="submit()" style="width:200px; margin-left:50px">NEXT</button>
+        <h4>&nbsp;</h4>
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+var loadFile = function(event) {
+	var image = document.getElementById('output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+</body>
+</html>

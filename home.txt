@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body background-image=url()>
+
+	<div class="bgimage">
+		<div class="menu">
+
+			<div class="leftmenu">
+				<h4> AGRICULTURE </h4>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+					<li id="fisrtlist"> HOME&nbsp;&nbsp; </li>
+                   
+<div class="dropdown">
+					<li>Services</li>
+<div class="dropdown-content">
+  <button><a href="drone.html">DRONE DELIVERY&nbsp;&nbsp</a></button>
+  <button><a href="ecom.html">.E-COMMERCE&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp</a></button>
+  <button><a href="#">.SMART INTERACTION</a></button>
+  </div>
+</div>
+<div class="dropdown">
+					<li> Features</li>
+<div class="dropdown-content">
+  <button><a href="trnslt.html">SOIL ANALYSIS&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;</a></button>
+  <button><a href="scan.html">CROP MONITERING</a></button>
+  <button><a href="#">WEATHER UPDATES</a></button>
+  </div>
+</div>
+					<a style="color:white" href="about.html"><li>  About us</li></a>
+					<a href="profile.html"><li>contact</li></a>
+					<a href="register.html" style="color:rgb(255, 255, 255); text-decoration: none;"><li>Signup</li></a>
+				</ul>
+			</div>
+
+		</div><br><br>
+
+<marquee><h1 style="color:black">WELCOME TO SRU-AGRI</h1></marquee>
+   <div class="para" style="border-style: groove; background-color:#7D6E83; opacity:1	;">
+<br>
+
+<h1 style="color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNOVATIVE AGRICULTURE</h1><br>
+
+    <h2 style="color:white">With the expansion of precision agriculture technology, more datasets are being collected and generated. This data presents an incredible opportunity to unlock important insights that can address a broad suite of agricultural that production challenges, including how to increase production intensity, manage risk to extreme weather events and ensure the success of rural communities.</h2>
+<br>
+</div>
+
+		<div class="text">
+			<h4> AGRICULTURE </h4>
+			<h1> SRU AGRI</h1>
+			<h3> GOLDEN HARVEST </h3>
+			<button id="buttonone" onclick="weather()"> Weather </button>
+			<button id="buttonone" onclick="lgin()"> LOGIN </button>
+		</div>
+
+	</div>
+<script> 
+  function weather(){
+  location.href="http://www.accuweather.com/en/in/ananthasagar/2828680/hourly-weather-forecast/2828680"}
+</script>
+<script>
+function lgin(){
+   location.href="loginu.html"}
+</script>
+</body>
+ 

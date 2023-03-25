@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+ background-image:url("images/image1.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+background-attachment: fixed;}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.content1 {
+  position: fixed;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  /*background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+  opacity:0.75
+}
+.content{
+ position: fixed;}
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.parallelogram {
+	width: 350px;
+	height: 103px;
+	transform: skew(330deg);
+	background: #555;
+    background-color: blue;
+}
+.menu {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+        top: 2px;
+        left: 2px;
+        height: 481px;
+    }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.menu{
+      height: 14%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      left:0;
+      overflow-x: hidden;}
+    .auto-style1 {
+        height: 38px;
+        width: 417px;
+        margin-left: 0px;
+    }
+</style>
+</head>
+<body>
+
+		<div class="menu" >
+
+			<div class="leftmenu">
+			 <div class="parallelogram"><h4>E-COM SUPERFAST</h4></div>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+                 <li><input type=text id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" class="auto-style1"></li>
+					<a href="akhil.html"><li> HOME&nbsp;&nbsp; </li></a>
+                   
+<div class="dropdown">
+					
+<div class="dropdown">
+					
+					<a style="color:white" href="about.html"><li>  About us</li></a>
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()"><li id="fisrtlist">Profile</li></span>
+				</ul>
+			</div>
+		</div><br>
+<div class="total">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Edit profile</a>
+  <a href="#">Orders</a>
+  <a href="#">Wishlist</a>
+  <a href="#">Select language</a>
+  <a href="#">Contact details</a>
+  <a href="#">Log out</a>
+</div>
+
+<div class="main1">
+<div class="content1">
+			    <h1>ECOMMERCE</h1>
+					<br>
+			    &nbsp;<h3 style="width: 831px">&nbsp;</h3>
+                <h3 style="width: 831px">&nbsp;</h3>
+                <h3 style="width: 831px">
+			    <img src="https://cdn-icons-png.flaticon.com/512/4781/4781517.png" alt="" width="60" height="60">SR UNIVERSITY,
+WARANGAL, Hanumakonda 506371, Telangana, India</h3>
+<h2><img src="msg.png" alt="" style="margin-left: 1129px; width: 39px; height: 35px;">info@ecomsuperfast.cart.in</h2><br>
+<hr>
+<br>
+<p align="center">© 2022,[ SR University ]. All Rights Reserved.</p>
+				</div>
+
+
+	</div>
+   </div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+ 
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+   <link rel="stylesheet" href="styleu.css">
+		 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+		  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<style>
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 500px; /* Used in this example to enable scrolling */
+}
+.parallelogram {
+	width: 350px;
+	height: 104px;
+	transform: skew(330deg);
+	background: #555;
+    background-color: blue;
+}
+.menu{
+      height: 14%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      left:0;
+      overflow-x: hidden;}
+    .auto-style1 {
+        height: 38px;
+        width: 417px;
+        margin-left: 0px;
+    }
+.menu {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+    .auto-style1 {
+        width: 450px;
+        height: 38px;
+    }
+</style>
+</head>
+<body>
+<div class="menu" >
+
+			<div class="leftmenu">
+			 <div class="parallelogram"><h4>E-COM SUPERFAST</h4></div>
+			</div>
+
+			<div class="rightmenu">
+				<ul>
+                 <li><input type=text id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" class="auto-style1"></li>
+					<a style="color:white" href="home.html"><li> HOME&nbsp;&nbsp; </li></a>
+         
+					
+					<a style="color:white" href="babout.html"><li>  About us</li></a>
+					<a href="seller.html"><li id="fisrtlist">Seller</li></a>
+					<a href="login.html" style="color:rgb(255, 255, 255); text-decoration: none;"><li>Login</li></a>
+				</ul>
+			</div>
+
+		</div><br>
+<div class="main">
+<div class="container" background="">
+    <div class="myform">
+      <form action="#" method="post">
+        <h2>LOGIN</h2>
+
+
+        <input type="tel" id="mobileno" placeholder="Registered Mobile Number" title="Error Message" pattern="[1-9]{1}[0-9]{9}">
+        <br>
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit" onclick="submit()"><a href="entry.html" style="color:white">LOGIN</a></button>
+<br>
+<br>
+        <p><a href="register.html">If you don't have an account?register</a></p><br>
+        <p><a href="#">Forgotten password?</a></p>
+
+        <br>
+        <br>
+        <h2 id="fail"></h2>
+        <h4>&nbsp;</h4>
+      </form>
+    </div>
+    
+  </div>
+</div>
+<script>
+ function submit() {
+      let mobileno=document.getElementById("mobileno").value;
+      let pswd=document.getElementById("password").value;
+      if(mobileno==7794889640 && pswd==1234){
+        location.href="akhil.html";}
+      else{
+        document.getElementById("fail").innerHTML="INVALID PASSWORD!";}
+}
+</script>
+</body>
+</html>
